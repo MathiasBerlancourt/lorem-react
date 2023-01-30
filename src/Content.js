@@ -2,7 +2,7 @@ import Title from "./Title";
 import Description from "./Description";
 
 const Content = (props) => {
-  console.log(); //
+  console.log(props); //
   return (
     <>
       <Title name={props.name} />

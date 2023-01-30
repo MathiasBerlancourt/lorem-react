@@ -1,4 +1,4 @@
 const Description = (props) => {
-  return <p>{props.text}</p>;
+  return <p className="titleLorem">{props.text}</p>;
 };
 export default Description;
